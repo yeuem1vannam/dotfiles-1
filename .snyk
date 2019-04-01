@@ -1,0 +1,8 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ws:20160920':
+    - crconsole > chrome-remote-interface > ws:
+        patched: '2019-04-01T22:27:29.577Z'
