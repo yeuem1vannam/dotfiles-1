@@ -27,6 +27,12 @@
     "uglify-js": "*",
     "underscore": "*",
     "yeoman-generator": "*",
-    "yo": "*"
-  }
+    "yo": "*",
+    "snyk": "^1.150.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
