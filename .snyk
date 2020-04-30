@@ -1,0 +1,64 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yeoman-generator > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yeoman-generator > async > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > async > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - mocha > yargs-unparser > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yeoman-generator > grouped-queue > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yeoman-generator > yeoman-environment > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > yeoman-environment > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > global-tunnel-ng > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > inquirer > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - http-server > portfinder > async > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > insight > async > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yeoman-generator > yeoman-environment > grouped-queue > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > yeoman-environment > grouped-queue > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yeoman-generator > yeoman-environment > inquirer > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > yeoman-environment > inquirer > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yeoman-generator > yeoman-environment > yeoman-generator > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > yeoman-environment > yeoman-generator > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > yeoman-doctor > global-tunnel-ng > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > insight > inquirer > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > tabtab > inquirer > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yeoman-generator > yeoman-environment > yeoman-generator > async > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > yeoman-environment > yeoman-generator > async > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yeoman-generator > yeoman-environment > yeoman-generator > grouped-queue > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > yeoman-environment > yeoman-generator > grouped-queue > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > yeoman-environment > yeoman-generator > yeoman-environment > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > yeoman-environment > yeoman-generator > yeoman-environment > grouped-queue > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
+    - yo > yeoman-environment > yeoman-generator > yeoman-environment > inquirer > lodash:
+        patched: '2020-04-30T22:29:54.458Z'
